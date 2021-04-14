@@ -691,8 +691,10 @@ int main( int argc, char **argv )
 	int   i;
 	char  commandLine[ MAX_STRING_CHARS ] = { 0 };
 
-	extern void Sys_LaunchAutoupdater(int argc, char **argv);
-	Sys_LaunchAutoupdater(argc, argv);
+#ifndef _WIN32 // Not sure what this is. Had trouble getting it to link in VS. ~Enc
+ 	extern void Sys_LaunchAutoupdater(int argc, char **argv);
+ 	Sys_LaunchAutoupdater(argc, argv);
+#endif
 
 #ifndef DEDICATED
 	// SDL version check

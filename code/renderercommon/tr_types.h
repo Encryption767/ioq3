@@ -216,4 +216,8 @@ typedef struct {
 	qboolean				smpActive;		// UNUSED, present for compatibility
 } glconfig_t;
 
+#if defined(Q3_VM) || defined(_WIN32)
+#define OPENGL_DRIVER_NAME	"opengl32"
+#endif	// !defined _WIN32
+
 #endif	// __TR_TYPES_H

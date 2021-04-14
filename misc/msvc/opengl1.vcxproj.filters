@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7d4ea17a-ba3e-4573-a3e0-29608a405fc6}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{035d16fa-d7c0-4b2a-a8c8-b3cc6d29065b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;fi;fd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{9e9d3910-1ac0-4a74-bd92-e5690be3679c}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="jpeg">
+      <UniqueIdentifier>{185e2374-f2bc-44a7-bac7-9bcc09ed12c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jpeg\Source Files">
+      <UniqueIdentifier>{edeea300-df93-4475-8853-efa5185dd84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jpeg\Header Files">
+      <UniqueIdentifier>{543baf2c-8f86-4b9c-af3c-8848271503c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{84c2c9d5-4774-4ef1-8d71-09267f9644cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SolutionDir)code\qcommon\puff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\q_math.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\q_shared.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\sdl\sdl_gamma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\sdl\sdl_glimp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_animation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_backend.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_bsp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_cmds.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_curve.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_flares.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderercommon\tr_font.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderercommon\tr_image_bmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderercommon\tr_image_jpg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderercommon\tr_image_pcx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderercommon\tr_image_png.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderercommon\tr_image_tga.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_light.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_marks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_mesh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_model.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_model_iqm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderercommon\tr_noise.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_scene.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_shade.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_shade_calc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_shader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_shadows.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_sky.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_subs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_surface.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\renderergl1\tr_world.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jaricom.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jcapimin.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jcapistd.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jcarith.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jccoefct.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jccolor.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jcdctmgr.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jchuff.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jcinit.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jcmainct.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jcmarker.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jcmaster.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jcomapi.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jcparam.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jcprepct.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jcsample.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jctrans.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jdapimin.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jdapistd.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jdarith.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jdatadst.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jdatasrc.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jdcoefct.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jdcolor.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jddctmgr.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jdhuff.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jdinput.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jdmainct.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jdmarker.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jdmaster.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jdmerge.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jdpostct.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jdsample.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jdtrans.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jerror.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jfdctflt.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jfdctfst.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jfdctint.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jidctflt.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jidctfst.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jidctint.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jmemmgr.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jmemnobs.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jquant1.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jquant2.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\jpeg-8c\jutils.c">
+      <Filter>jpeg\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\zlib\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\zlib\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\zlib\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\zlib\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\zlib\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\zlib\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(SolutionDir)code\qcommon\puff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\qcommon\q_shared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\qcommon\qcommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\qcommon\qfiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\renderercommon\qgl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\win32\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\server\server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\client\snd_local.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\client\snd_public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\qcommon\surfaceflags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\renderergl1\tr_extramath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\renderergl1\tr_extratypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\renderergl1\tr_fbo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\renderergl1\tr_local.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\renderergl1\tr_postprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\renderercommon\tr_public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\cgame\tr_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\ui\ui_public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\qcommon\unzip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\qcommon\vm_local.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\win32\win_local.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\jpeg-6b\jchuff.h">
+      <Filter>jpeg\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\jpeg-6b\jconfig.h">
+      <Filter>jpeg\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\jpeg-6b\jdct.h">
+      <Filter>jpeg\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\jpeg-6b\jdhuff.h">
+      <Filter>jpeg\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\jpeg-6b\jerror.h">
+      <Filter>jpeg\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\jpeg-6b\jinclude.h">
+      <Filter>jpeg\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\jpeg-6b\jmemsys.h">
+      <Filter>jpeg\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\jpeg-6b\jmorecfg.h">
+      <Filter>jpeg\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\jpeg-6b\jpegint.h">
+      <Filter>jpeg\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\jpeg-6b\jpeglib.h">
+      <Filter>jpeg\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\jpeg-6b\jversion.h">
+      <Filter>jpeg\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -39,3 +39,6 @@ profile
 *.sdf
 *.opensdf
 *.suo
+/.vs
+/misc/msvc/.vs/ioq3/v16
+/Quake 3 Arena

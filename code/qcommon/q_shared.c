@@ -181,7 +181,7 @@ float	LittleFloat (const float *l) {return _LittleFloat(l);}
 
 void CopyShortSwap(void *dest, void *src)
 {
-	byte *to = dest, *from = src;
+	byte *to = (byte *)dest, *from = (byte *)src;
 
 	to[0] = from[1];
 	to[1] = from[0];
@@ -189,7 +189,7 @@ void CopyShortSwap(void *dest, void *src)
 
 void CopyLongSwap(void *dest, void *src)
 {
-	byte *to = dest, *from = src;
+	byte *to = (byte *)dest, *from = (byte *)src;
 
 	to[0] = from[3];
 	to[1] = from[2];
@@ -594,7 +594,7 @@ Skips until a matching close brace is found.
 Internal brace depths are properly skipped.
 =================
 */
-qboolean SkipBracedSection (char **program, int depth) {
+qboolean SkipBracedSection(char **program, int depth) {
 	char			*token;
 
 	do {
@@ -750,7 +750,7 @@ int Q_isalpha( int c )
 	return ( 0 );
 }
 
-qboolean Q_isanumber( const char *s )
+qboolean Q_isanumber(const char *s)
 {
 	char *p;
 	double UNUSED_VAR d;
@@ -763,7 +763,7 @@ qboolean Q_isanumber( const char *s )
 	return *p == '\0';
 }
 
-qboolean Q_isintegral( float f )
+qboolean Q_isintegral(float f)
 {
 	return (int)f == f;
 }
