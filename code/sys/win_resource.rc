@@ -74,7 +74,7 @@ END
 //
 // Application Manifest
 //
-CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "win_manifest.xml"
+//CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "win_manifest.xml"
 
 #endif    // English (U.S.) resources
 /////////////////////////////////////////////////////////////////////////////

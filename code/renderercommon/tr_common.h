@@ -23,7 +23,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 #define TR_COMMON_H
 
 #include "../qcommon/q_shared.h"
-#include "../renderercommon/tr_public.h"
+#include "tr_public.h"
 #include "qgl.h"
 
 typedef enum
@@ -57,9 +57,14 @@ typedef struct image_s {
 	int			internalFormat;
 	int			TMU;				// only needed for voodoo2
 
+ 	qboolean	mipmap;
+ 	qboolean	allowPicmip;
+
 	imgType_t   type;
 	imgFlags_t  flags;
 
+	int			wrapClampMode;		// GL_CLAMP or GL_REPEAT
+    int         index; // this image == tr.images[index]
 	struct image_s*	next;
 } image_t;
 

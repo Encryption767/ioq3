@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{58d2dbcf-2315-42cc-af9f-438697497968}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a5d54ec6-c5dd-4dc7-a23a-59cfc70d0571}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;fi;fd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{e9e5e206-6190-4529-a703-c63a7708ea9b}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="botlib">
+      <UniqueIdentifier>{24f32983-c732-46d2-8076-806905cdcb70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="botlib\Source Files">
+      <UniqueIdentifier>{cf6b91af-59d6-46ec-a9cf-45f823695aef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="botlib\Header Files">
+      <UniqueIdentifier>{dd588fc0-ec9d-400c-9f5e-58d06b45221f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="speex">
+      <UniqueIdentifier>{d16eb614-231f-4176-850f-812b7d20ff3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{0f1e3f47-3fff-4ffd-bc8b-2f007bc74759}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SolutionDir)code\client\cl_avi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\client\cl_cgame.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\client\cl_cin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\client\cl_console.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\client\cl_curl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\client\cl_input.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\client\cl_keys.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\client\cl_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\client\cl_net_chan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\client\cl_parse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\client\cl_scrn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\client\cl_ui.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\cm_load.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\cm_patch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\cm_polylib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\cm_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\cm_trace.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\cmd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\sys\con_log.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\sys\con_passive.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\cvar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\files.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\huffman.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\ioapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\md4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\md5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\msg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\net_chan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\net_ip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\puff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\q_math.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\q_shared.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\client\qal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\sdl\sdl_input.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\sdl\sdl_snd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\client\snd_adpcm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\client\snd_codec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\client\snd_codec_ogg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\client\snd_codec_wav.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\client\snd_dma.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\client\snd_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\client\snd_mem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\client\snd_mix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\client\snd_openal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\client\snd_wavelet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\server\sv_bot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\server\sv_ccmds.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\server\sv_client.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\server\sv_game.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\server\sv_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\server\sv_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\server\sv_net_chan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\server\sv_snapshot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\server\sv_world.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\sys\sys_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\sys\sys_win32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\unzip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\vm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\vm_interpreted.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\qcommon\vm_x86.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\be_aas_bspq3.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\be_aas_cluster.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\be_aas_debug.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\be_aas_entity.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\be_aas_file.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\be_aas_main.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\be_aas_move.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\be_aas_optimize.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\be_aas_reach.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\be_aas_route.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\be_aas_routealt.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\be_aas_sample.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\be_ai_char.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\be_ai_chat.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\be_ai_gen.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\be_ai_goal.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\be_ai_move.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\be_ai_weap.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\be_ai_weight.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\be_ea.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\be_interface.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\l_crc.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\l_libvar.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\l_log.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\l_memory.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\l_precomp.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\l_script.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\botlib\l_struct.c">
+      <Filter>botlib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\bits.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\buffer.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\cb_search.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\exc_10_16_table.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\exc_10_32_table.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\exc_20_32_table.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\exc_5_256_table.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\exc_5_64_table.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\exc_8_128_table.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\fftwrap.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\filterbank.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\filters.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\gain_table.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\gain_table_lbr.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\hexc_10_32_table.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\hexc_table.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\high_lsp_tables.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\jitter.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\kiss_fft.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\kiss_fftr.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\lpc.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\lsp.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\lsp_tables_nb.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\ltp.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\mdf.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\modes.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\modes_wb.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\nb_celp.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\preprocess.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\quant_lsp.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\resample.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\sb_celp.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\smallft.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\speex.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\speex_callbacks.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\speex_header.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\stereo.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\vbr.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\vq.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\libspeex\window.c">
+      <Filter>speex</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\zlib\adler32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\zlib\crc32.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\zlib\inffast.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\zlib\inflate.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\zlib\inftrees.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)code\zlib\zutil.c">
+      <Filter>zlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(SolutionDir)code\game\bg_public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\cgame\cg_public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\client\cl_curl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\client\client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\qcommon\cm_local.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\qcommon\cm_patch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\qcommon\cm_polylib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\qcommon\cm_public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\game\g_public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\ui\keycodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\client\keys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\qcommon\puff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\qcommon\q_shared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\client\qal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\qcommon\qcommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\qcommon\qfiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\renderer\qgl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\win32\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\server\server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\client\snd_local.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\client\snd_public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\qcommon\surfaceflags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\renderer\tr_local.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\renderer\tr_public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\cgame\tr_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\ui\ui_public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\qcommon\unzip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\qcommon\vm_local.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\win32\win_local.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\sys\win_resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\aasfile.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\be_aas_bsp.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\be_aas_cluster.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\be_aas_debug.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\be_aas_def.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\be_aas_entity.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\be_aas_file.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\be_aas_funcs.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\be_aas_main.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\be_aas_move.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\be_aas_optimize.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\be_aas_reach.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\be_aas_route.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\be_aas_routealt.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\be_aas_sample.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\be_ai_weight.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\be_interface.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\l_crc.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\l_libvar.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\l_log.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\l_memory.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\l_precomp.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\l_script.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\l_struct.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\botlib\l_utils.h">
+      <Filter>botlib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(SolutionDir)code\libspeex\config.h">
+      <Filter>speex</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(SolutionDir)code\sys\win_resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(SolutionDir)code\asm\ftola.asm">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(SolutionDir)code\asm\snapvector.asm">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

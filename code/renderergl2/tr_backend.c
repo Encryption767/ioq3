@@ -1716,7 +1716,7 @@ const void *RB_ExportCubemaps(const void *data)
 				Com_sprintf(filename, MAX_QPATH, "cubemaps/%s/%03d.dds", tr.world->baseName, i);
 			}
 
-			R_SaveDDS(filename, cubemapPixels, r_cubemapSize->integer, r_cubemapSize->integer, 6);
+			R_SaveDDS(filename, cubemapPixels, r_cubemapSize->integer, r_cubemapSize->integer, 6); // FIXME Where is it?
 			ri.Printf(PRINT_ALL, "Saved cubemap %d as %s\n", i, filename);
 		}
 
@@ -1779,7 +1779,7 @@ void RB_ExecuteRenderCommands( const void *data ) {
 		case RC_EXPORT_CUBEMAPS:
 			data = RB_ExportCubemaps(data);
 			break;
-		case RC_END_OF_LIST:
+	/*	case RC_END_OF_LIST:*/ 
 		default:
 			// finish any 2D drawing if needed
 			if(tess.numIndexes)

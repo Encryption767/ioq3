@@ -166,7 +166,7 @@ typedef int intptr_t;
 #include <ctype.h>
 #include <limits.h>
 
-#ifdef _MSC_VER
+#if defined(_MSC_VER) && (_MSC_VER < 1600) // Fairly old define causing problems with the Kenny renderer
   #include <io.h>
 
   typedef __int64 int64_t;
@@ -177,6 +177,7 @@ typedef int intptr_t;
   typedef unsigned __int32 uint32_t;
   typedef unsigned __int16 uint16_t;
   typedef unsigned __int8 uint8_t;
+
 #else
   #include <stdint.h>
 #endif
@@ -198,8 +199,13 @@ typedef int intptr_t;
 
 typedef unsigned char 		byte;
 
+#ifdef __cplusplus // vulkan and d3d12 are mostly cpp
+#define qfalse false 
+#define qtrue true 
+#define qboolean bool 
+#else
 typedef enum {qfalse, qtrue}	qboolean;
-
+#endif
 typedef union {
 	float f;
 	int i;
@@ -778,7 +784,7 @@ typedef struct pc_token_s
 
 void	COM_MatchToken( char**buf_p, char *match );
 
-qboolean SkipBracedSection (char **program, int depth);
+qboolean SkipBracedSection(char **program, int depth);
 void SkipRestOfLine ( char **data );
 
 void Parse1DMatrix (char **buf_p, int x, float *m);
@@ -813,8 +819,8 @@ int Q_isprint( int c );
 int Q_islower( int c );
 int Q_isupper( int c );
 int Q_isalpha( int c );
-qboolean Q_isanumber( const char *s );
-qboolean Q_isintegral( float f );
+qboolean Q_isanumber(const char *s);
+qboolean Q_isintegral(float f);
 
 // portable case insensitive compare
 int		Q_stricmp (const char *s1, const char *s2);
